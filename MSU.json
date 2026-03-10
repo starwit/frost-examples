@@ -1,0 +1,7 @@
+
+{
+    "name": "MSUv2/VehicleCounter",
+    "description": "Vehicle counter sensor",
+    "encodingType": "application/pdf",
+    "metadata": "https://www.gerhartl.de/smart-city-technologien/"
+}

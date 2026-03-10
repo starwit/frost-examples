@@ -1,0 +1,167 @@
+{
+    "name": "MeckauerWeg",
+    "description": "Eingangskreuzung Parkplatz Meckauer Weg",
+    "Locations": [
+        {
+            "name": "MeckauerWeg",
+            "description": "Eingangskreuzung Parkplatz Meckauer Weg",
+            "encodingType": "application/vnd.geo+json",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    10.786854487688359,
+                    52.42403569809852
+                ]
+            }
+        }
+    ],
+    "properties": {
+        "type": "PARKING_SPACE"
+    },
+    "Datastreams": [
+        {
+            "name": "north_in_car_count",
+            "description": "Counts of vehicles entering the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_in_truck_count",
+            "description": "Counts of trucks entering the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_in_pedestrian_count",
+            "description": "Counts of pedestrians entering the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_in_bicycle_count",
+            "description": "Counts of bicycles entering the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_out_car_count",
+            "description": "Counts of vehicles leaving the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_out_truck_count",
+            "description": "Counts of trucks leaving the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_out_pedestrian_count",
+            "description": "Counts of pedestrians leaving the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        },
+        {
+            "name": "north_out_bicycle_count",
+            "description": "Counts of bicycles leaving the north leg of the intersection.",
+            "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+            "unitOfMeasurement": {
+                "name": "count",
+                "symbol": "1",
+                "definition": "http://www.opengis.net/def/uom/UCUM#1"
+            },
+            "Sensor": {
+                "@iot.id": 1
+            },
+            "ObservedProperty": {
+                "name": "objectCount",
+                "definition": "http://example.org/ontology/vehicleCounts",
+                "description": "Object count."
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+      "Datastream": { "@iot.id": 1 },
+      "components": ["phenomenonTime", "result"],
+      "dataArray": [
+        ["2026-03-09T08:00:00Z", 107],
+        ["2026-03-09T08:15:00Z", 95]
+      ]
+    },
+    {
+      "Datastream": { "@iot.id": 2 },
+      "components": ["phenomenonTime", "result"],
+      "dataArray": [
+        ["2026-03-09T08:00:00Z", 17],
+        ["2026-03-09T08:15:00Z", 15]
+      ]
+    },
+    {
+      "Datastream": { "@iot.id": 3 },
+      "components": ["phenomenonTime", "result"],
+      "dataArray": [
+        ["2026-03-09T08:00:00Z", 32],
+        ["2026-03-09T08:15:00Z", 45]
+      ]
+    },
+    {
+      "Datastream": { "@iot.id": 4 },
+      "components": ["phenomenonTime", "result"],
+      "dataArray": [
+        ["2026-03-09T08:00:00Z", 12],
+        ["2026-03-09T08:15:00Z", 5]
+      ]
+    }
+]
