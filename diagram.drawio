@@ -1,0 +1,138 @@
+<mxfile host="65bd71144e">
+    <diagram id="diagram" name="ObjectModel">
+        <mxGraphModel dx="1864" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="sensor" value="Sensor\n- @iot.id: 1" style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6f7;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="630" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds2" value="DataStream: north_in_truck_count\n- description: Counts of trucks entering the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="-180" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds3" value="DataStream: north_in_pedestrian_count\n- description: Counts of pedestrians entering the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds4" value="DataStream: north_in_bicycle_count\n- description: Counts of bicycles entering the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds6" value="DataStream: north_out_truck_count\n- description: Counts of trucks leaving the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="-440" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds7" value="DataStream: north_out_pedestrian_count\n- description: Counts of pedestrians leaving the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds8" value="DataStream: north_out_bicycle_count\n- description: Counts of bicycles leaving the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="ds8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds1" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds2" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-70" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds3" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="430" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds4" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1200" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds5" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-620" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds1" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="rel15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds7" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="rel16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds8" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="930" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds6" target="sensor" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-140" y="625" as="sourcePoint"/>
+                        <mxPoint x="920" y="150" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-330" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ds5" value="DataStream: north_out_car_count\n- description: Counts of vehicles leaving the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="-730" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" parent="1" source="ds5" target="ds1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-510" y="360" as="sourcePoint"/>
+                        <mxPoint x="420" y="800" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-620" y="570"/>
+                            <mxPoint x="180" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ds1" value="DataStream: north_in_car_count\n- description: Counts of vehicles entering the north leg of the intersection." style="shape=umlObject;rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f7ff;strokeColor=#4a4a4a;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="320" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;O1:Thing&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;description =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Intersection MeckauerWeg&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="110" width="260" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
