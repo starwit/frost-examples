@@ -13,3 +13,7 @@ sudo docker compose up
 ```
 
 Point your browser to http://localhost:18080/FROST-Server/v1.1
+
+
+## Data Model
+![](./diagram.drawio)
